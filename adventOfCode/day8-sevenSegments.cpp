@@ -62,6 +62,7 @@ int main()
         }
         pCharInput = strtok(inputString, "|");
         pCharOutput = strtok(NULL, "|");
+        test text
 
         // 1. Find numbers with unique number of segments
         pCharInputOneByOne = strtok(pCharInput, " ");
@@ -124,5 +125,4 @@ int main()
             pCharOutput = strtok(NULL, " ");
         }
     }
-    return 0;
-}
+    return 
